@@ -28,10 +28,10 @@ The application displays a counter that **increments when clicking the `+` butto
 
 react-counter-spa/
 ├── src/
-│   ├── App.jsx
-│   ├── App.css
-│   ├── main.jsx
-│   └── index.css
+│ ├── App.jsx
+│ ├── App.css
+│ ├── main.jsx
+│ └── index.css
 ├── public/
 ├── index.html
 ├── package.json
@@ -56,3 +56,5 @@ git clone https://github.com/Taranjotsingh06/react-counter-spa.git
 cd react-counter-spa
 npm install
 npm run dev
+
+
