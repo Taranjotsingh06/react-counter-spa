@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Times New Roman';
+}
+
+body {
+  background-color: white;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app {
+  background-color: white;
+  padding: 30px 40px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 8px 20px gray;
+  width: 300px;
+}
+
+.app h1 {
+  margin-bottom: 20px;
+  color: black;
+}
+
+.count {
+  font-size: 22px;
+  margin-bottom: 20px;
+  color: gray;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.buttons button {
+  width: 50px;
+  height: 50px;
+  font-size: 24px;
+
+  border: none;
+  border-radius: 6px;   
+  cursor: pointer;
+
+  background-color: green;
+  color: white;
+
+  display: flex;         
+  align-items: center;
+  justify-content: center;
+
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+
+
+.buttons button:hover {
+  background-color: darkgreen;
+  transform: scale(1.1);
+}
