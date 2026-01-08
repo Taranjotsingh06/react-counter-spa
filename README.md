@@ -24,22 +24,6 @@ The application displays a counter that **increments when clicking the `+` butto
 
 ---
 
-## 📂 Project Structure
-
-react-counter-spa/
-├── src/
-│ ├── App.jsx
-│ ├── App.css
-│ ├── main.jsx
-│ └── index.css
-├── public/
-├── index.html
-├── package.json
-└── vite.config.js
-
-
----
-
 ## ⚙️ How It Works
 - `useState` is used to store the counter value
 - Clicking **+** increases the counter by 1
